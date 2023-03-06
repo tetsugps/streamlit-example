@@ -1,8 +1,9 @@
-from collections import namedtuple
+#from collections import namedtuple
 import altair as alt
-import math
-import pandas as pd
+#import math
+#import pandas as pd
 import streamlit as st
+from llama_index import GPTSimpleVectorIndex, GPTTreeIndex, BeautifulSoupWebReader
 
 """
 # Welcome to Streamlit!
@@ -17,6 +18,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 title = st.text_input('質問してください', 'ティーアイは何の会社ですか？')
 st.write('答え：', title)
+
 
 
 '''
